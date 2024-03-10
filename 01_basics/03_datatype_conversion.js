@@ -50,3 +50,22 @@ a number */
 // number
 
 // for true we get 1 as number and 0 for false 
+
+
+// ************************************ Operations ******************************* //
+console.log(1 + 2); //type of will be a Number
+console.log("1" + 2); //type = string Output = 12
+console.log( 1 + "2"); //type = string Output = 12
+console.log("1" + "2"); //type = string Output = 12
+console.log("1" + 2 + 2); //type = string Output = 122
+console.log(1 + 2 + "3"); //type = string Output = 33
+console.log(1 + "2" + 3); //type = string Output = 123
+
+
+// so According to the ECMA standarizations if there is a string concatenatyion inthe begeinning than the entire is 
+// a string conversion and if there is a another datatype let us say Number than the addition is done first unless
+// the sring is concatinated and the overal type is string only 
+
+
+
+
